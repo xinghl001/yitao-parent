@@ -1,20 +1,18 @@
 package com.gerry.yitao.yitaosellerservice.service;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.gerry.yitao.common.exception.ServiceException;
 import com.gerry.yitao.domain.Category;
 import com.gerry.yitao.mapper.CategoryMapper;
 import com.gerry.yitao.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @author bystander
- * @date 2018/9/15
- */
+@Component
 @Service
 public class CategoryServiceImpl implements CategoryService {
 

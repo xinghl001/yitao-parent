@@ -19,10 +19,6 @@ import tk.mybatis.mapper.entity.Example;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/**
- * @author bystander
- * @date 2018/9/18
- */
 @Slf4j
 @Service
 public class GoodsServiceImpl implements GoodsService {

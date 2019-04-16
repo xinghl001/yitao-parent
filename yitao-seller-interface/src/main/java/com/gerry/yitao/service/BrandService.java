@@ -7,10 +7,7 @@ import com.gerry.yitao.entity.PageResult;
 
 import java.util.List;
 
-/**
- * @author bystander
- * @date 2018/9/15
- */
+
 public interface BrandService {
 
     PageResult<Brand> queryBrandByPageAndSort(Integer page, Integer rows, String sortBy, Boolean desc, String key);

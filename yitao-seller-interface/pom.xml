@@ -18,6 +18,11 @@
             <groupId>com.gerry.yitao</groupId>
             <artifactId>yitao-domain</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.gerry.yitao</groupId>
+            <artifactId>yitao-common</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

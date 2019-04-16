@@ -15,10 +15,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author bystander
- * @date 2018/9/18
- */
 @Service
 public class SpecServiceImpl implements SpecService {
 

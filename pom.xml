@@ -14,6 +14,7 @@
         <module>yitao-mapper</module>
         <module>yitao-seller-service</module>
         <module>yitao-seller-interface</module>
+        <module>yitao-seller-webapi</module>
     </modules>
 
     <properties>

@@ -5,10 +5,6 @@ import com.gerry.yitao.domain.SpecParam;
 
 import java.util.List;
 
-/**
- * @author bystander
- * @date 2018/9/18
- */
 public interface SpecService {
 
     List<SpecGroup> querySpecGroupByCid(Long cid);

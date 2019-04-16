@@ -8,10 +8,6 @@ import com.gerry.yitao.entity.PageResult;
 
 import java.util.List;
 
-/**
- * @author bystander
- * @date 2018/9/18
- */
 public interface GoodsService {
     PageResult<Spu> querySpuByPage(Integer page, Integer rows, String key, Boolean saleable);
 
